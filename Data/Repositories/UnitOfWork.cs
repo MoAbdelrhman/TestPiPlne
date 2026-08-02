@@ -17,7 +17,6 @@ namespace TaskManager.Data.Repositories
         }
 
         public IOrderRepository Orders => _orders;
-
         public async Task SaveChangesAsync()
         {
 
