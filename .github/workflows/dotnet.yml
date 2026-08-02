@@ -17,7 +17,7 @@ jobs:
         dotnet-version: '8.0.x'
     
     - name: Restore dependencies
-      run: dotnet restore Order.sln
+      run: dotnet restore Order.Api.sln
     
     - name: Build
       run: dotnet build Order.sln --no-restore --configuration Release      
