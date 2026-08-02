@@ -2,8 +2,10 @@ name: Run Project Check
 
 on:
   pull_request:
-    branches: [main, Dev, Test]
-
+    branches:
+      - main
+      - Dev
+      - Test
 jobs:
   run-project:
     name: Run & Verify Project
